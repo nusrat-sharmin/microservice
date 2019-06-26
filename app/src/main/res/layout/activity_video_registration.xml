@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/background"
+    tools:context=".video_stream.VideoRegistration">
+
+
+    <ImageView
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/register"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+    <EditText
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="20dp"
+        android:drawableLeft="@drawable/ic_action_name"
+        android:hint="Name"
+        android:textColor="#FFFFFFFF"
+        android:id="@+id/videoRegNameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        />
+    <EditText
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="20dp"
+        android:drawableLeft="@drawable/ic_action_email"
+        android:hint="Email"
+        android:textColor="#FFFFFFFF"
+        android:id="@+id/videoRegEmailET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        />
+
+    <EditText
+        android:inputType="textPassword"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="20dp"
+        android:drawableLeft="@drawable/ic_action_password"
+        android:hint="Password"
+        android:textColor="#FFFFFFFF"
+        android:id="@+id/videoRegPassET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:layout_marginLeft="-60dp"
+        android:layout_marginBottom="15dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textSize="14sp"
+        android:textColor="#FFFFFF"
+        android:text="Please,Select At Least One Catagory"
+        android:id="@+id/textviewID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <CheckBox
+
+        android:layout_marginLeft="-100dp"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/songCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Song"
+        android:textSize="20sp"
+        />
+
+
+    <CheckBox
+        android:layout_marginLeft="-70dp"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/educationCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Educational"
+        android:textSize="20sp"
+        />
+
+    <CheckBox
+        android:layout_marginLeft="-82dp"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/religionCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Religious"
+        android:textSize="20sp"
+        />
+    <CheckBox
+        android:layout_marginLeft="-60dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/entertainmentCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entertainment"
+        android:textSize="20sp"
+        />
+    <Button
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:text="Register"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:onClick="goRegister"
+        android:shadowRadius="5">
+
+
+    </Button>
+
+</LinearLayout>
+
+</ScrollView>
